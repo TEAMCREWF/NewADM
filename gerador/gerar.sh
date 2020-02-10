@@ -7,7 +7,7 @@ BARRA="\033[1;36m---------------------------------------------------------------
 echo -e "$BARRA"
 cat << EOF
 
-           NEW KEY GENERATOR BY 8TH
+           NEW KEY GENERATOR BY TEAM CREW
            INSTALACOES: $(cat $IVAR)
            
 EOF
@@ -273,14 +273,14 @@ PID_GEN=$(ps x|grep -v grep|grep "http-server.sh")
 echo -e "$BARRA"
 echo -e "Diretorio Dos Arquivos Repassados \033[1;31m${SCPT_DIR}\033[0m"
 echo -e "$BARRA"
-echo -e "[1] = GERAR 1 KEY ALEATORIA"
-echo -e "[2] = APAGAR/OLHAR KEYS"
+echo -e "[1] = GENERAR 1 KEY ALEATORIA"
+echo -e "[2] = APAGAR/ACTIVAR KEYS"
 echo -e "[3] = LIMPAR KEYS USADAS"
-echo -e "[4] = ALTERAR ARQUIVOS KEY BASICA"
+echo -e "[4] = ALTERAR ARCHIVOS KEY BASICA"
 echo -e "[5] = START/STOP KEYGEN $PID_GEN\033[0m"
 echo -e "[6] = VER LOG"
-echo -e "[7] = MUDAR MENSAGEM"
-echo -e "[0] = SAIR"
+echo -e "[7] = CAMBIAR MENSAJE"
+echo -e "[0] = SALIR"
 echo -e "$BARRA"
 while [[ ${varread} != @([0-8]) ]]; do
 read -p "Opcao: " varread
